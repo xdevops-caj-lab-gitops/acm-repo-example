@@ -1,0 +1,15 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  labels:
+    app: spring-petclinic
+  name: spring-petclinic-placement-ocp1
+  namespace: spring-petclinic
+spec:
+  clusterSelector:
+    matchLabels:
+      name: ocp1
+status:
+  decisions:
+    - clusterName: ocp1
+      clusterNamespace: ocp1
