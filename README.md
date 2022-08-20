@@ -17,8 +17,16 @@ oc apply -f acm/02_channels
 Create applications:
 ```bash
 # parksmap
-oc apply -f acm/02_apps/parksmap
+oc apply -f acm/03_apps/parksmap
 
 # spring-petclinic
-oc apply -f acm/02_apps/petclinic
+oc apply -f acm/03_apps/petclinic
+```
+
+## Clean Up
+
+Clean up previous created resources after testing.
+```bash
+oc delete project parksmap
+oc delete project spring-petclinic
 ```
