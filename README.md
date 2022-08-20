@@ -20,7 +20,7 @@ Create applications:
 oc apply -f acm/03_apps/parksmap
 
 # spring-petclinic
-oc apply -f acm/03_apps/petclinic
+oc apply -f acm/03_apps/spring-petclinic
 ```
 
 ## Clean Up
