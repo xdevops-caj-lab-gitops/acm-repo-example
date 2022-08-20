@@ -1,5 +1,10 @@
 # A Mono-repository for ACM repo examples
 
+## 前提条件
+
+已经在Hub Cluster上安装好ACM，并用ACM纳管以下集群：
+- `ocp1`
+
 ## Create ACM applications
 
 Run below commands on Hub Cluster.
@@ -30,3 +35,8 @@ Clean up previous created resources after testing.
 oc delete project parksmap
 oc delete project spring-petclinic
 ```
+
+## References
+
+- [ACM Product Document](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/2.5)
+- [Open Cluster Management](https://open-cluster-management.io/)
