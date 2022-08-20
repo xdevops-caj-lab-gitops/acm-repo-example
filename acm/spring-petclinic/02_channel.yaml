@@ -1,8 +1,0 @@
-apiVersion: apps.open-cluster-management.io/v1
-kind: Channel
-metadata:
-  name: ggithubcom-xdevops-caj-lab-gitops-acm-repo-example
-  namespace: ggithubcom-xdevops-caj-lab-gitops-acm-repo-example-ns
-spec:
-  pathname: https://github.com/xdevops-caj-lab-gitops/acm-repo-example.git
-  type: Git
