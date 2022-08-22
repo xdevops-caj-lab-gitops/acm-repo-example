@@ -9,7 +9,4 @@ spec:
   clusterSelector:
     matchLabels:
       name: ocp1
-status:
-  decisions:
-    - clusterName: ocp1
-      clusterNamespace: ocp1
+

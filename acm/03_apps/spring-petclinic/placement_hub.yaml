@@ -9,7 +9,4 @@ spec:
   clusterSelector:
     matchLabels:
       name: local-cluster
-status:
-  decisions:
-    - clusterName: local-cluster
-      clusterNamespace: local-cluster
+
