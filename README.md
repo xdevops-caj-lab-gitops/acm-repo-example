@@ -5,6 +5,10 @@
 已经在Hub Cluster上安装好ACM，并用ACM纳管以下集群：
 - `ocp1`
 
+Lab Env:
+- OpenShift 4.10.24
+- OpenShift ACM Operator 2.5.1
+
 ## Create ACM applications
 
 Run below commands on Hub Cluster.
